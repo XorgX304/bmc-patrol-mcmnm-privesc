@@ -32,6 +32,10 @@ The exploit was wrapped in a single script file. The first line (BIN=/path/to/mc
 
 ## Disclosure timeline
 2017-04-21 - Vulnerability discovered
+
 2017-05-09 - Vendor contacted
+
 2017-06-05 - Still no response, reminder sent to vendor 
+
 2017-08-22 - Still no response, vulnerability disclosed 
+
