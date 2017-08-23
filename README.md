@@ -1,5 +1,7 @@
 # BMC Patrol 'mcmnm' - Privilege escalation via a vulnerable setuid binary 
 
+![Demo](https://github.com/itm4n/bmc-patrol-mcmnm-privesc/raw/master/screenshots/00_exploit-demo.gif)
+
 ## File permissions 
 The 'mcmnm' file is a setuid binary owned by 'root' and executable by everyone.
 
