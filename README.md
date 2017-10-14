@@ -21,9 +21,9 @@ Thanks to 'strace' we can see which SO files the binary tries to load and from w
 
 
 ## Shared Object hijacking
-The exploit is quite simple as a local attacker only has to forge an evil Shared Object file and execute the vulnerable binary from the same folder. The following code will spawn a 'root' shell as soon as the Object is loaded (similar to 'DllMain' with Windows DLL).
+The exploit is quite simple as a local attacker only has to forge a malicious Shared Object file and execute the vulnerable binary from the same folder. The following code will spawn a 'root' shell as soon as the Object is loaded (similar to 'DllMain' with Windows DLL).
 
-![Evil SO source code](https://github.com/itm4n/bmc-patrol-mcmnm-privesc/raw/master/screenshots/04_dll-source-code.png)
+![Malicious SO source code](https://github.com/itm4n/bmc-patrol-mcmnm-privesc/raw/master/screenshots/04_dll-source-code.png)
 
 
 ## The exploit 
